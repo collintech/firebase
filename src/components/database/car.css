@@ -1,0 +1,25 @@
+.cars {
+    color: white;
+}
+
+.cars ul li {
+    list-style: none;
+}
+
+.car-cta {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+}
+
+.car-cta ul {
+    border-left: 2px solid wheat;
+
+}
+
+.car-cta ul li {
+    margin: .2em 0;
+}
+
+.car-cta button {
+    padding: .3em .5em;
+}

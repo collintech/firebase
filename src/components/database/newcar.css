@@ -1,0 +1,34 @@
+.new-car {
+    display: flex;
+}
+
+.new-car input:not(input[type="checkbox"]) {
+    margin-right: .3em;
+    /* padding: 0 2em; */
+    width: 230px;
+    margin-right: .3em;
+}
+
+.new-car input:nth-child(4) {
+    width: 100px;
+    position: relative;
+    margin: 0;
+    margin-left: -1em;
+}
+
+.new-car input:nth-child(4)::after {
+    content: "isAnSuv";
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-shadow: 1.5px 1.5px 2px black;
+    position: absolute;
+    right: -1.8em;
+    bottom: .5em;
+    margin-left: .3em;
+}
+
+.new-car button {
+    margin-left: 3.5em;
+    padding: .5em 1.5em;
+}

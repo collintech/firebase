@@ -1,0 +1,13 @@
+.update-car {
+    margin-top: 2em;
+    display: flex;
+}
+
+.update-car input {
+    flex: 0.8;
+    margin-right: .6em;
+}
+
+.update-car button {
+    flex: 0.18;
+}

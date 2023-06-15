@@ -1,0 +1,19 @@
+.storage {
+    margin-top: 2em;
+    display: flex;
+    /* background-color: green; */
+    align-items: stretch;
+}
+
+.storage input {
+    flex: 0.7;
+    margin-right: .3em;
+    margin: 0;
+    color: white;
+    background-color: rgba(49, 48, 48, 0.4);
+    padding: .5em;
+}
+
+.storage button {
+    margin-left: 1em;
+}

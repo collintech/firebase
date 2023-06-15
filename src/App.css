@@ -1,0 +1,19 @@
+.app {
+  margin: 0;
+  width: 1000px;
+  height: 90vh;
+  background-color: #464D77;
+  padding: 1em;
+  margin: auto;
+  margin-top: 1em;
+}
+
+button {
+  cursor: pointer;
+  transition: background .3s ease-in,
+    transform scale(1) .3 linear;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
